@@ -1,116 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cannabis for Education</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="./scripts.js"></script>
   </head>
   <body>
     <header>
-      <a href="#" class="logo-holder">
-        <div class="logo">🌿</div>
-        <div class="logo-text">Cannabis for education</div>
-      </a>
-      <nav>
-        <ul id="menu">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#menu-burgers">Species Diversity</a>
-          </li>
-          <li>
-            <a href="#menu-burgers" class="button">Order Now</a>
-          </li>
-        </ul>
-        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
-          <img src="./images/mobileToggle.svg" alt="Mobile Toggle" />
+      <div class="nav-container">
+        <a href="#" class="logo-holder">
+          <div class="logo">�</div>
+          <div class="logo-text">Cannabis<span>Edu</span></div>
         </a>
-      </nav>
+        <nav>
+          <ul id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#species">Species Diversity</a></li>
+            <li><a href="#species" class="button">Explore Now</a></li>
+          </ul>
+          <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="6" x2="21" y2="6"/>
+              <line x1="3" y1="12" x2="21" y2="12"/>
+              <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </a>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <div class="hero-first">
-          <h1>Cannabis For Education</h1>
-          <p>
-            cannabis education equips people with the knowledge and skills to
-            make informed decisions about cannabis use. It covers the science
-            behind cannabis, its potential benefits and risks, and responsible
-            consumption practices. This empowers consumers and promotes harm
-            reduction.
-          </p>
-          <div class="call-to-action">
-            <a href="./product_cannabis.pdf" target="”_blank”" class="button">
-              Full Product
+        <div class="hero-bg">
+          <div class="blob blob-1"></div>
+          <div class="blob blob-2"></div>
+          <div class="blob blob-3"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-badge">� Educational Resource</div>
+          <h1>Discover the World of <span class="gradient-text">Cannabis</span></h1>
+          <p>Cannabis education equips people with the knowledge and skills to make informed decisions. Explore the science, benefits, and responsible practices through our comprehensive guide.</p>
+          <div class="hero-actions">
+            <a href="./product_cannabis.pdf" target="_blank" class="btn btn-primary">
+              <span>Full Guide</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
+            <a href="#species" class="btn btn-outline">Learn More</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-num">700+</span><span class="stat-label">Strains</span></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Cannabinoids</span></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Knowledge</span></div>
           </div>
         </div>
-        <div class="hero-second">
-          <img
-            src="./images/Gemini_Generated_Image_7keeyp7keeyp7kee (1).jpeg"
-            alt="Cannabis"
-            width="100%"
-          />
+        <div class="hero-image">
+          <div class="image-frame">
+            <img src="./images/Gemini_Generated_Image_7keeyp7keeyp7kee (1).jpeg" alt="Cannabis" />
+            <div class="image-glow"></div>
+          </div>
         </div>
       </section>
-      <section id="menu-burgers" class="featured">
-        <h2>100% SUPERKUY</h2>
-        <div class="burgers">
-          <article>
-            <figure>
-              <img
-                src="./images/rainbow.jpeg"
-                alt="Rainbow Reef"
-                width="100%"
-              />
-            </figure>
-            <h3>Rainbow Reef</h3>
-            <p>
-              Rainbow Reef: Cannabis comes in a kaleidoscope of colors! From
-              deep purple buds to bright orange hues, the diversity goes beyond
-              green.
-            </p>
+      <section id="species" class="species-section">
+        <div class="section-header">
+          <div class="section-tag">Explore</div>
+          <h2>Species <span class="gradient-text">Diversity</span></h2>
+          <p>Discover the remarkable variety within the cannabis plant family</p>
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-image"><img src="./images/rainbow.jpeg" alt="Rainbow Reef" /><div class="card-overlay"></div></div>
+            <div class="card-body">
+              <div class="card-tag">Aesthetics</div>
+              <h3>Rainbow Reef</h3>
+              <p>Cannabis comes in a kaleidoscope of colors! From deep purple buds to bright orange hues, the diversity goes beyond green.</p>
+              <a href="#" class="card-link">Read more <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>
           </article>
-          <article>
-            <figure>
-              <img
-                src="./images/high_cannabis.jpeg"
-                alt="Bacon Cheeseburger"
-                width="100%"
-              />
-            </figure>
-            <h3>High and Low</h3>
-            <p>
-              High and Low: Not all cannabis is created equal. Tall, wispy
-              Sativa plants stand next to short, broad-leafed Indicas, offering
-              a range of effects for different needs.
-            </p>
+          <article class="card card-featured">
+            <div class="card-image"><img src="./images/high_cannabis.jpeg" alt="High and Low" /><div class="card-overlay"></div></div>
+            <div class="card-body">
+              <div class="card-tag">Genetics</div>
+              <h3>High and Low</h3>
+              <p>Not all cannabis is created equal. Tall, wispy Sativa plants stand next to short, broad-leafed Indicas, offering a range of effects.</p>
+              <a href="#" class="card-link">Read more <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>
           </article>
-          <article>
-            <figure>
-              <img
-                src="./images/beyond.jpeg"
-                alt="Beyond the Bud"
-                width="100%"
-              />
-            </figure>
-            <h3>Beyond the Bud</h3>
-            <p>
-              Beyond the Bud: Diversity goes deeper than appearance. Cannabinoid
-              and terpene profiles vary across strains, creating a spectrum of
-              unique experiences.
-            </p>
+          <article class="card">
+            <div class="card-image"><img src="./images/beyond.jpeg" alt="Beyond the Bud" /><div class="card-overlay"></div></div>
+            <div class="card-body">
+              <div class="card-tag">Compounds</div>
+              <h3>Beyond the Bud</h3>
+              <p>Diversity goes deeper than appearance. Cannabinoid and terpene profiles vary across strains, creating a spectrum of unique experiences.</p>
+              <a href="#" class="card-link">Read more <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            </div>
           </article>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo"><span class="logo">�</span><span>CannabisEdu</span></div>
+        <p>For educational purposes only. Know your local laws.</p>
+      </div>
+    </footer>
   </body>
 </html>
